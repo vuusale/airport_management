@@ -55,7 +55,7 @@ response: {
 
 If from_city is null, flights to to_city are returned.
 If to_city is null, flights from from_city are returned.
-If both from_city adn to_city are null, all flights are returned.
+If both from_city and to_city are null, all flights are returned.
 -----------------------------------------------------------------------------------------
 scenario: add a new flight
 POST server/flights
